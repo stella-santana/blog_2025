@@ -1,0 +1,244 @@
+body {
+    margin: 0;
+    background-color: #d0ebff;
+    color: white;
+}
+
+main {
+    flex-direction: column;
+    padding: 20px;
+    align-items: center;
+    display: flex;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #d0ebff;
+    margin: 0;
+    padding: 40px 20px;
+    color: #072c52;
+}
+
+header {
+    background-color: #1b80e4;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 6px;
+
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+
+   
+}
+
+.texto {
+    max-width: 50%;
+}
+
+.frase-principal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    text-align: center;
+    padding: 10px;
+    background-color: #1b80e4;
+    display: flex;
+    justify-content: center;
+    gap: 15px;   
+    flex-wrap: wrap; 
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 0%;
+    margin: 0%;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+
+nav ul li a {
+    background-color: #93bbcf;
+    border-radius: 5px;
+    padding: 10px 15px;
+    color: white;
+}
+
+nav a {
+    color: white;
+    margin: 0 10px;
+    background-color: #4db8ff;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    font-weight: bold;
+
+}
+
+
+.dancas {
+    padding: 30px;
+    text-align: center;
+}
+
+
+
+.titulo {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.estilos {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+.item {
+    color: white;
+    background-color: #4db8ff;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+.motivos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    padding-bottom: 40px;
+}
+
+.bloco {
+    padding: 10px 15px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+
+a {
+    color: #072c52;
+    font-weight: bold;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-size: 3em;
+    color: #ffffff;
+}
+
+h2 {
+    margin: 10px;
+    color: #1b80e4;
+    max-width: 800px;
+    padding: 20px;
+    font-size: 18px;
+    text-align: center;
+}
+
+h2 style {
+    text-align: center;
+}
+
+h3 {
+    color: #2763a0;
+}
+
+
+h4 {
+    color: #072c52;
+}
+
+p {
+    color: #072c52;
+}
+
+footer {
+    background-color: #1b80e4;
+    color: white;
+    text-align: center;
+    padding: 2px;
+    border-radius: 6px;
+}
+
+
+.noticias {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    border-radius: 12px;
+    
+}
+
+
+.sobre-mim {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+
+}
+
+
+.conteudo {
+    max-width: 800px;
+    text-align: center;
+    padding: 20px 20px;
+    border-radius: 10px;
+    margin: 0;
+}
+
+.noticia {
+    display: flex;
+    text-align: justify;
+    flex-direction: column;
+    padding: 20px;
+    background-color: #acdeff;
+    margin: 30px 0px;
+    align-items: center;
+}
+
+.noticia img {
+    width: 70%;
+
+}
+
+.dancas img{
+    margin: 20px;
+    border-radius: 10px;
+    width: 50%; 
+    max-width: 100%;
+    
+}
+
+.video-link{
+    text-align: center;
+    margin: 40px 0;;
+}
+
+.link-noticia{
+    margin-top: 15px;
+    padding: 10px 20px;
+    color: #072c52;
+}
